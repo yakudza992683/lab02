@@ -1,11 +1,10 @@
-#include <iostream>
-using namespace std;
-int
-main()
-{
-  string name;
-  cout << "Enter your name: ";
-  cin >> name;
-  cout << "Hello, world from " << name << "!";
-  return 0;
+
+#include <iostream>  // подключаем библиотеку для ввода/вывода
+
+int main() {
+    std::string name;
+    std::cout << "Enter your name: ";  // просим ввести имя
+    std::cin >> name;
+    std::cout << "Hello, world from " << name << "!";  // выводим приветствие
+    return 0;
 }
